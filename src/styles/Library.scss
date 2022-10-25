@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0 4vw;
+    box-sizing: border-box;
+    font-family: 'Neue Montreal';
+    color: white;
+    overflow-x: hidden;
+    
+    /* HIDE SCROLL BAR*/
+}
+
+
+/*Fonts*/
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url(./../fonts/Neue-Montreal-Bold.woff2) format('woff2'),
+        url(./../fonts/Neue-Montreal-Bold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+@font-face {
+    font-family: 'Source code pro';
+    src: url(./../fonts/source-code-pro-v22-latin-regular.woff2) format('woff2'),
+        url(./../fonts/source-code-pro-v22-latin-regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    
+
+}
+
+/*Libarary*/
+
+h1,
+h2 {
+    font-family: 'Source code pro';
+    font-size: 90px;
+    margin: 0;
+    
+
+    @media (max-width: 800px) {
+        font-size: 60px;
+        
+    }
+}
+
+h3 {
+    font-family: 'Source code pro';
+    font-size: 32px;
+    margin: 0;
+
+    
+}
+
+h4 {
+    font-family: 'Source code pro' ;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Source code pro' ;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: white;
+    
+    
+}

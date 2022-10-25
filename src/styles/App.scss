@@ -1,0 +1,56 @@
+section.background{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    &.lucy{
+        background-image: url('../img/char/lucyBg.png');
+    }
+    &.david{
+        background-image: url('../img/char/davidBg.png');
+    }
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 80%;
+    }
+}
+
+section.characters{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: wrap;
+    position: relative;
+    left: 6%;
+     
+}
+
+div.avatar{
+    height: 100px;
+    width: 100px;
+    .picture{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        
+        img{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+        }
+    }
+    
+}
