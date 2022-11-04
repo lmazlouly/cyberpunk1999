@@ -11,7 +11,6 @@ function David() {
             <Background name='background david'/>
             <Header/>
             <Characters/>
-
         </section>
     );
 }

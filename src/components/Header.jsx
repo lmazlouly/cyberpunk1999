@@ -4,7 +4,7 @@ import logo from './../img/logo/Cyberpunk2077.png';
 const Header = () => {
     return(
         <header>
-            <img src={logo} ant="img"></img>
+            <img src={logo} alt="img" />
         </header>
     );
 };
